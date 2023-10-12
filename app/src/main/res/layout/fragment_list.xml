@@ -6,13 +6,15 @@
     android:layout_height="match_parent">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/list"
+        android:id="@+id/movie_list"
         android:name="com.example.flixter.BestMovieFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layoutManager="LinearLayoutManager"
+        android:layout_marginTop="100dp"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
         tools:context=".MovieFragment"
-        tools:listitem="@layout/fragment_best_movie" />
+        tools:listitem="@layout/fragment_movie" />
 
     <androidx.core.widget.ContentLoadingProgressBar
         android:id="@+id/progress"

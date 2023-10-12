@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="250dp"
+    android:layout_height="380dp"
+    android:layout_margin="6dp"
+    android:background="#5c0719">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/movie_description"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:text=""-->
+    <!--        android:textColor="#eb98aa"-->
+    <!--        android:maxLines="6"-->
+    <!--        android:ellipsize="end"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/guideline"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/movie_name"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:layout_marginEnd="8dp"/>-->
+
+    <!-- Guideline to separate the poster from text -->
+
+    <ImageView
+        android:id="@+id/movie_poster"
+        android:layout_width="216dp"
+        android:layout_height="276dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <TextView
+        android:id="@+id/movie_title"
+        android:layout_width="192dp"
+        android:layout_height="70dp"
+        android:text=""
+        android:textColor="#eb98aa"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical"-->
+    <!--        app:layout_constraintGuide_percent="0.39" /> &lt;!&ndash; Adjust this value as needed &ndash;&gt;-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
