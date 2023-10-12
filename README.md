@@ -1,28 +1,28 @@
-# Android Project 3 - *Flixter*
+# Android Project 4 - *Flixter+ Part 2*
 
 Submitted by: **Norsang Nyandak**
 
-**Flixter** is a movie-browsing app that allows users to browse movies currently playing in theaters.
+**Flixter+ Part 2** is a movie-browsing app that allows users to browse Popular Upcoming and Playing Movies.
 
-Time spent: **11** hours spent in total
+Time spent: **14** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] **Make a request to [The Movie Database API's `now_playing`](https://developers.themoviedb.org/3/movies/get-now-playing) endpoint to get a list of current movies**
-- [X] **Parse through JSON data and implement a RecyclerView to display all movies**
-- [X] **Use Glide to load and display movie poster images**
+- [X] **Choose any endpoint on The MovieDB API except `now_playing`**
+  - Chosen Endpoint: `[TODO: FILL ME IN TO GET CREDIT]`
+- [X] **Make a request to your chosen endpoint and implement a RecyclerView to display all entries**
+- [X] **Use Glide to load and display at least one image per entry**
+- [X] **Click on an entry to view specific details about that entry using Intents**
 
 The following **optional** features are implemented:
 
-- [X] Improve and customize the user interface through styling and coloring
-- [X] Implement orientation responsivity
-  - App should neatly arrange data in both landscape and portrait mode
-- [X] Implement Glide to display placeholder graphics during loading
-  - Note: this feature is difficult to capture in a GIF without throttling internet speeds.  Instead, include an additional screencap of your Glide code implementing the feature.  (<10 lines of code)
+- [ ] **Add another API call and RecyclerView that lets the user interact with different data.** 
+- [X] **Add rounded corners to the images using the Glide transformations**
+- [X] **Implement a shared element transition when user clicks into the details of a movie**
 
-![Flixter](https://github.com/TNorsang/Flixter/assets/33474625/081764b7-e22b-448a-adba-4034efb52533)
+![FlixterProGif](https://github.com/TNorsang/FlixterP2/assets/33474625/50c69428-c7c3-4f5e-bf5c-180763a437b5)
 
 
 ## License
